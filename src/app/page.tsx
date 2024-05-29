@@ -7,7 +7,7 @@ import animationData from "./components/hero-main.json"; // Update this path
 
 type Props = {};
 
-export function Page() {
+export function page() {
   return (
     <>
       <div className="h-screen w-full dark:bg-grid-white/[0.05] bg-grid-black/[0.04] relative flex items-center justify-center">
@@ -37,4 +37,4 @@ export function Page() {
   );
 }
 
-export default Page;
+export default page;
