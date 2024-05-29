@@ -27,7 +27,7 @@ export function Page() {
               </p>
               <ResumeDownload />
             </div>
-            <div className="right flex-1 p-2 max-h-96">
+            <div className="right flex-1 p-2 h-full md:max-h-96">
               <Lottie animationData={animationData} loop={true} />
             </div>
           </div>
