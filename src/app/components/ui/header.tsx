@@ -118,12 +118,12 @@ function Header({}: Props) {
         </button>
       </div>
       {menuOpen && (
-        <div className="sm:hidden absolute top-20 left-0 right-0 bg-white dark:bg-black shadow-lg">
-          <ul className="flex flex-col items-center gap-4 py-4">
+        <div className="sm:hidden absolute h-screen top-20 left-0 right-0 bg-white dark:bg-black shadow-lg">
+          <ul className="flex flex-col items-end pr-10 gap-4 py-4">
             {navItems.map((item, index) => (
               <li
                 key={index}
-                className="text-black dark:text-gray-400 dark:hover:text-gray-100 font-medium"
+                className="text-black text-4xl dark:text-gray-400 dark:hover:text-gray-100 font-medium"
               >
                 <Link href={item.href} onClick={() => setMenuOpen(false)}>
                   {item.title}
