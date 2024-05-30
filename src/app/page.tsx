@@ -3,7 +3,8 @@ import React from "react";
 import { Spotlight } from "./components/ui/Spotlight";
 import ResumeDownload from "./components/download-resume";
 import Lottie from "lottie-react";
-import animationData from "./components/hero-main.json"; // Update this path
+import animationData from "./components/hero-main.json";
+import { HeroParallaxDemo } from "./components/parallax";
 
 type Props = {};
 
@@ -33,8 +34,9 @@ const Page: React.FC = () => {
           </div>
         </div>
       </div>
+      <HeroParallaxDemo />
     </>
   );
-}
+};
 
 export default Page;
